@@ -13,7 +13,7 @@ const gradeOfFilm = +prompt('Какая оценка фильма', '');
 const lastFilm2 = prompt('Один из последних просмотренных фильмов?', '');
 const gradeOfFilm2 = +prompt('Какая оценка фильма', '');
 
-personalMovieDB.movies[gradeOfFilm] = gradeOfFilm;
+personalMovieDB.movies[lastFilm] = gradeOfFilm;
 personalMovieDB.movies[lastFilm2] = gradeOfFilm2;
 
-console.log(personalMovieDB); 
+console.log(personalMovieDB);
