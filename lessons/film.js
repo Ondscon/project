@@ -17,3 +17,6 @@ personalMovieDB.movies[lastFilm] = gradeOfFilm;
 personalMovieDB.movies[lastFilm2] = gradeOfFilm2;
 
 console.log(personalMovieDB);
+
+
+d
