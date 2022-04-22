@@ -8,7 +8,7 @@ const personalMovieDB = {
      privat:  false  //- в это свойство поместить boolean(логическое) значение false
 };
 
-const lastFilm = prompt('Один из последних просмотренных фильмов?', '');
+const lastFilm = prompt('Один 1 из последних просмотренных фильмов?', '');
 const gradeOfFilm = +prompt('Какая оценка фильма', '');
 const lastFilm2 = prompt('Один из последних просмотренных фильмов?', '');
 const gradeOfFilm2 = +prompt('Какая оценка фильма', '');
