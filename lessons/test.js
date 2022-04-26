@@ -1,19 +1,19 @@
-'use strict';
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-const personalMovieDB = {
-     count: numberOfFilms,    //- сюда передается ответ на первый вопрос
-     movies: {},   //в это свойство поместить пустой объект
-     actors: {},   //тоже поместить пустой объект
-     genres:  [],    //сюда поместить пустой массив
-     privat:  false  //- в это свойство поместить boolean(логическое) значение false
-};
-
-const lastFilm = prompt('Один из последних просмотренных фильмов?', '');
-const gradeOfFilm = +prompt('Какая оценка фильма', '');
-const lastFilm2 = prompt('Один из последних просмотренных фильмов?', '');
-const gradeOfFilm2 = +prompt('Какая оценка фильма', '');
-
-personalMovieDB.movies[gradeOfFilm] = gradeOfFilm;
-personalMovieDB.movies[lastFilm2] = gradeOfFilm2;
-
-console.log(personalMovieDB); 
+function findMultiples(integer, limit) {
+     let    result = [];
+     let integer2 = [];   
+for (let j = integer, k=0 ; j <= limit; j++) {
+    integer2[k] = j;
+    k++;
+    }
+     
+    for (let i = 0, g=0; i < limit; i++) {
+        if (Number.isInteger(integer2[i] / integer)) {
+            result[i] = integer2[i];        
+         } 
+         
+    }
+     
+     return a = result.filter(result => result != NaN);
+   
+}
+console.log(findMultiples(5, 27));
