@@ -20,8 +20,33 @@ let exp = /[~#$%^&@*():;"'.,?0-9]/g;
 
 
 
-
-Math.round() возвращает число, округлённое к ближайшему целому.
-Метод Math.ceil() - округление вверх. Округляет аргумент до ближайшего большего целого.
+Math.max([value1[, value2[, ...]]])  возвращает наибольшее из нуля или более чисел.
+Math.round(x) возвращает число, округлённое к ближайшему целому.
+Math.floor()
+Math.ceil(x) - округление вверх. Округляет аргумент до ближайшего большего целого.
 trim   удалить проблемы в стркое
-Number.isInteger() определяет, является ли переданное значение целым числом.
+Number.isInteger(x) определяет, является ли переданное значение целым числом.
+str.toString()   в строку
+
+Map - https://learn.javascript.ru/map-set
+if (isNaN(num1) || isNaN(num2) || isNaN(num3) || isNaN(num4)) 
+arr.sort(function (a, b) {return a - b })   по порядку массив
+arr.push(X)  method adds new items to the end of an arra
+arr1.push(...arr2); 
+array3 = array1.concat(array2);
+ arr.splice( индекс, элемет, 'чем');             Метод splice() изменяет содержимое массива, удаляя существующие элементы и/или добавляя новые.
+
+ let fill = arr.filter(function (el) {             Новый массив удалили "" (пустые)
+          return el != null;
+     });
+
+
+arr.forEach(function(item, Номер по порядку ,ссылка который перебираем)    
+
+data.shops.forEach(shop => {
+        square += shop.width * shop.length;           Достучаться к кажому обекту в OBJ
+    });
+
+if(/[aeioyu]/i.test(word[i])) {
+         arr.push(i+1);
+       }
